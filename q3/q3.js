@@ -1,5 +1,5 @@
 function exibirTabuada() {
-    const numero = parseInt(prompt("Digite um número para ver a tabuada:"));
+    const numero = parseInt(prompt("Digite um número para a calcular a tabuada:"));
     
     if (isNaN(numero)) {
         console.log("Por favor, digite um número válido.");

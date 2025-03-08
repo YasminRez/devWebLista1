@@ -1,6 +1,6 @@
 
-function calcularSomaSerie() {
-    const termos = parseInt(prompt("Digite a quantidade de termos:"));
+function calcularSoma() {
+    const termos = parseInt(prompt("Digite um número para a soma:"));
     
     if (isNaN(termos) || termos <= 0) {
         console.log("Por favor, digite um número válido e maior que zero.");
@@ -21,4 +21,4 @@ function calcularSomaSerie() {
     console.log(`A soma é: ${soma}`);
 }
 
-calcularSomaSerie();
+calcularSoma();

@@ -1,4 +1,4 @@
-function desenharTriangulo() {
+function triangulo() {
     const linhas = parseInt(prompt("Digite o número de linhas para o triângulo:"));
     
     if (isNaN(linhas) || linhas <= 0) {
@@ -13,4 +13,4 @@ function desenharTriangulo() {
     console.log(triangulo);
 }
 
-desenharTriangulo();
+triangulo();
